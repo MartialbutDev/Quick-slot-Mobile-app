@@ -9,7 +9,8 @@ export const lightColors = {
   text: '#1a1a1a',
   textSecondary: '#666',
   border: '#f0f0f0',
-  primary: '#007AFF',
+  primary: '#1a237e',        // Navy blue (darker)
+  //'#007AFF',
   card: '#fff',
   shadow: '#000',
   notificationBadge: '#FF3B30',
@@ -22,7 +23,8 @@ export const lightColors = {
   success: '#34C759',
   warning: '#FF9500',
   error: '#FF3B30',
-  headerBackground: '#0b2b2c',
+  headerBackground: '#0d1b3a',  // Dark navy blue
+  //'#0b2b2c',
 };
 
 export const darkColors = {
@@ -31,12 +33,13 @@ export const darkColors = {
   text: '#ffffff',
   textSecondary: '#a0a0a0',
   border: '#2d2d2d',
-  primary: '#0a84ff',
+  primary: '#1a237e',        // Navy blue (darker)
+  //'#0a84ff',
   card: '#2d2d2d',
   shadow: '#000',
   notificationBadge: '#FF453A',
   rating: '#FFD700',
-  categoryIcon: '#1a3a5f',
+  categoryIcon: '#ffffff', //'#1a3a5f',
   gadgetTag: '#2a2a2a',
   rateBadge: '#1a3a5f',
   inputBackground: '#2d2d2d',
@@ -44,7 +47,8 @@ export const darkColors = {
   success: '#30D158',
   warning: '#FF9F0A',
   error: '#FF453A',
-  headerBackground: '#0a1a1a',
+  headerBackground: '#0d1b3a',  // Dark navy blue
+  //'#0a1a1a',
 };
 
 interface ThemeContextType {
